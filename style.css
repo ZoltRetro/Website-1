@@ -142,4 +142,260 @@ html {
     border-color: #e67e22 ;
 }
 
+
+
 /* Kara */
+
+/* Logan */
+.container {
+    max-width: 1140px ;
+    height: auto ;
+    margin: 0 auto ;
+    padding: 80px 20px ;
+}
+
+.section-delivery {
+    background-color: white;
+    padding: 80px 20px ;
+    height: 200px ;
+}
+
+
+
+
+.row {
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-between ;
+    align-items: center ;
+    text-align: center ;
+}
+.fast {
+    font-size: 200% ;
+    line-height: 1.5 ;
+    margin-bottom: 40px ;
+    text-align: center ;
+    position: relative ;
+    bottom:30px;
+}
+.long-copy {
+    font-size: 120% ;
+    line-height: 1.5 ;
+    margin-bottom: 40px ;
+    text-align: center ;
+    bottom: 50px ;
+}
+
+h2:after {
+    display: block ;
+    height: 2px ;
+    background-color: #e67e22 ;
+    content: " " ;
+    margin: auto ;
+    margin-top: 20px ;
+    width: 100px ;
+}
+
+.icon-big {
+    font-size: 350% ;
+    display: block ;
+    color: #e67e22 ;
+    margin-bottom: 10px ;
+    --ionicon-stroke-width: 20px ;
+}
+
+#section-about {
+    background-color: white ;
+    padding: 80px 20px ;
+}
+
+.container-about {
+    display: flex ;
+    flex-direction: row ;
+    justify-content: space-between ;
+    align-items: center ;
+    
+}
+.about-box {
+    text-align: left ;
+    margin-right: 40px ;
+}
+
+.year {
+    text-align: left ;
+    margin-bottom: 15px ;
+    width: auto ;
+}
+
+.ready-box {
+    text-align: left ;
+    margin-left: 40px ;
+}
+
+.ready{
+    text-align: left ;
+    margin-bottom: 15px ;
+    width: auto ;
+}
+
+.organic-box {
+    text-align: left ;
+    margin-left: 40px ;
+}
+.organic{
+    text-align: left ;
+    margin-bottom: 15px ;
+    width: auto ;
+}
+
+.order-box {
+    text-align: left ;
+    margin-left: 40px ;
+}
+
+.order{
+    text-align: left ;
+    margin-bottom: 15px ;
+    width: auto ;
+}
+
+.icon-section {
+    font-size: 350% ;
+    display: block ;
+    color: #e67e22 ;
+    margin-bottom: 10px ;
+    --ionicon-stroke-width: 20px ;
+}
+/* Logan */
+
+
+.meal-photo {
+    width: 100% ;
+    margin: 0 ;
+    overflow: hidden ;
+    background-size: #0000 ;
+}
+
+.meal-photo img {
+    opacity: 0.7 ;
+    width: 100% ;
+    height: auto ;
+    transform: scale(1.15) ;
+    transition: transform 0.5s, opacity 0.5s ;
+}
+
+.meal-photo img:hover {
+    opacity: 1 ;
+    transform: scale(1) ;
+}
+
+.food-boxes {
+    max-width: 1140px ;
+    height:600px;
+    position: relative ;
+    top: 100px ;
+}
+.container-food {
+    position: relative ;
+    bottom: 100px ;
+    right:440px;
+    display: grid ;
+    grid-template-columns: repeat(4, 1fr) ;
+    text-align: center ;
+    min-height: 900px ;
+    min-width: 1960px ;
+    background-color: black ;
+    
+}
+
+.food-box1 {
+
+    overflow: hidden ;
+    background-image:url("Omnifood Contents/1.jpg");
+    background-size: 27vw 45vh ;
+    background-repeat: no-repeat ;
+    opacity: 0.7 ;
+    
+    
+    transition: transform 0.5s, opacity 0.5s ;
+}
+.food-box2 {
+
+    overflow: hidden ;
+    background-image:url("Omnifood Contents/2.jpg");
+    background-size: 27vw 45vh ;
+    background-repeat: no-repeat ;
+    opacity: 0.7 ;
+   
+    transition: transform 0.5s, opacity 0.5s ;
+}
+.food-box3 {
+
+    overflow: hidden ;
+    background-image:url("Omnifood Contents/3.jpg");
+    background-size: 27vw 45vh ;
+    background-repeat: no-repeat ;
+    opacity: 0.7 ;
+   
+    transition: transform 0.5s, opacity 0.5s ;
+}
+.food-box4 {
+
+    overflow: hidden ;
+    background-image:url("Omnifood Contents/4.jpg");
+    background-size: 27vw 45vh ;
+    background-repeat: no-repeat ;
+    opacity: 0.7 ;
+    
+    transition: transform 0.5s, opacity 0.5s ;
+}.food-box5 {
+
+    overflow: hidden ;
+    background-image:url("Omnifood Contents/5.jpg");
+    background-size: 27vw 45vh ;
+    background-repeat: no-repeat ;
+    opacity: 0.7 ;
+    
+    transition: transform 0.5s, opacity 0.5s ;
+}.food-box6 {
+
+    overflow: hidden ;
+    background-image:url("Omnifood Contents/6.jpg");
+    background-size: 27vw 45vh ;
+    background-repeat: no-repeat ;
+    opacity: 0.7 ;
+    
+    transition: transform 0.5s, opacity 0.5s ;
+}.food-box7 {
+
+    overflow: hidden ;
+    background-image:url("Omnifood Contents/7.jpg");
+    background-size: 27vw 45vh ;
+    background-repeat: no-repeat ;
+    opacity: 0.7 ;
+    
+    transition: transform 0.5s, opacity 0.5s ;
+}.food-box8 {
+
+    overflow: hidden ;
+    background-image:url("Omnifood Contents/8.jpg");
+    background-size: 27vw 45vh ;
+    background-repeat: no-repeat ;
+    opacity: 0.7 ;
+    
+    transition: transform 0.5s, opacity 0.5s ;
+}
+
+
+
+.food-box1:hover, .food-box2:hover, .food-box3:hover, .food-box4:hover, .food-box5:hover, .food-box6:hover, .food-box7:hover, .food-box8:hover {
+    opacity: 1 ;
+    transform: scale(.9) ;
+
+}
+
+
+/* Logan */
+
+
+
